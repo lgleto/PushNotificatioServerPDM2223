@@ -1,0 +1,290 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "PushNotificationExample/1.0.0": {
+        "dependencies": {
+          "FirebaseAdmin": "2.3.0",
+          "Microsoft.AspNetCore.OpenApi": "7.0.0-rc.2.22476.2",
+          "Swashbuckle.AspNetCore": "6.4.0"
+        },
+        "runtime": {
+          "PushNotificationExample.dll": {}
+        }
+      },
+      "FirebaseAdmin/2.3.0": {
+        "dependencies": {
+          "Google.Api.Gax.Rest": "3.2.0",
+          "Google.Apis.Auth": "1.49.0",
+          "System.Collections.Immutable": "1.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FirebaseAdmin.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "Google.Api.Gax/3.2.0": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Api.Gax.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      },
+      "Google.Api.Gax.Rest/3.2.0": {
+        "dependencies": {
+          "Google.Api.Gax": "3.2.0",
+          "Google.Apis.Auth": "1.49.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Api.Gax.Rest.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      },
+      "Google.Apis/1.49.0": {
+        "dependencies": {
+          "Google.Apis.Core": "1.49.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "assemblyVersion": "1.49.0.0",
+            "fileVersion": "1.49.0.0"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.49.0": {
+        "dependencies": {
+          "Google.Apis": "1.49.0",
+          "Google.Apis.Core": "1.49.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {
+            "assemblyVersion": "1.49.0.0",
+            "fileVersion": "1.49.0.0"
+          },
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "assemblyVersion": "1.49.0.0",
+            "fileVersion": "1.49.0.0"
+          }
+        }
+      },
+      "Google.Apis.Core/1.49.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "assemblyVersion": "1.49.0.0",
+            "fileVersion": "1.49.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.OpenApi/7.0.0-rc.2.22476.2": {
+        "dependencies": {
+          "Microsoft.OpenApi": "1.2.3"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.47602"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
+      "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
+      "Microsoft.OpenApi/1.2.3": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "1.2.3.0",
+            "fileVersion": "1.2.3.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore/6.4.0": {
+        "dependencies": {
+          "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
+          "Swashbuckle.AspNetCore.Swagger": "6.4.0",
+          "Swashbuckle.AspNetCore.SwaggerGen": "6.4.0",
+          "Swashbuckle.AspNetCore.SwaggerUI": "6.4.0"
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/6.4.0": {
+        "dependencies": {
+          "Microsoft.OpenApi": "1.2.3"
+        },
+        "runtime": {
+          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "6.4.0.0",
+            "fileVersion": "6.4.0.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/6.4.0": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "6.4.0"
+        },
+        "runtime": {
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "assemblyVersion": "6.4.0.0",
+            "fileVersion": "6.4.0.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/6.4.0": {
+        "runtime": {
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "assemblyVersion": "6.4.0.0",
+            "fileVersion": "6.4.0.0"
+          }
+        }
+      },
+      "System.Collections.Immutable/1.7.1": {}
+    }
+  },
+  "libraries": {
+    "PushNotificationExample/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FirebaseAdmin/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ror9V68bFWdr3VXoCPQrAAJ1ZA8dyLzIHJvy53BmoD83Ze9VuWC9hPBicPqqOANP3VTMWnylC7xci59UEMuU4A==",
+      "path": "firebaseadmin/2.3.0",
+      "hashPath": "firebaseadmin.2.3.0.nupkg.sha512"
+    },
+    "Google.Api.Gax/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0OjahFAHTOoprSgvJiQ6/fIQLrUYU4QIFgkuJ51/lcmhZbuXxB3ycPk3JTVEvx6A5yQBL14wgmHgwXLcEsnu3Q==",
+      "path": "google.api.gax/3.2.0",
+      "hashPath": "google.api.gax.3.2.0.nupkg.sha512"
+    },
+    "Google.Api.Gax.Rest/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YY4mD0nGxTx1uez7Perm+zAd3FH50dd3+7HTYsRFCywDEtj3RkrMjcAmw6mNpKkw2sRICu7aYNy1mgMjd3nVbw==",
+      "path": "google.api.gax.rest/3.2.0",
+      "hashPath": "google.api.gax.rest.3.2.0.nupkg.sha512"
+    },
+    "Google.Apis/1.49.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fmXQQTxZFOBlnvokvdQMzq0Lt+g2QzpZ4H6U8lMMFHgAR8ZqxQnPN5yHDpoHf7a++hJHb5W3pALxauGsq+afKQ==",
+      "path": "google.apis/1.49.0",
+      "hashPath": "google.apis.1.49.0.nupkg.sha512"
+    },
+    "Google.Apis.Auth/1.49.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3V9ohvixQtjaEvk7T9Ac7E/KvwEPa7eL4aMNreJDI0CEPzCdQdk2zCvaJPRrNIjhe+UuBeOeom1oAOMFB74JHg==",
+      "path": "google.apis.auth/1.49.0",
+      "hashPath": "google.apis.auth.1.49.0.nupkg.sha512"
+    },
+    "Google.Apis.Core/1.49.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9DgGdtyzgrCfHWwc/HiDXDbykNMeKQozbEHYEUEcezRuH+YR3fvq7YGVBDmUM8g6qEL3kDk6h5EU4h0IJwue1w==",
+      "path": "google.apis.core/1.49.0",
+      "hashPath": "google.apis.core.1.49.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.OpenApi/7.0.0-rc.2.22476.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PamnEWfGSuxNS1xpWITsgTEqER719SjgvUt0uyeYQ/Ev4syRnqnSU0i0yKF+oiZdkGRPjMoJlrnhmnsH3Ml/Ug==",
+      "path": "microsoft.aspnetcore.openapi/7.0.0-rc.2.22476.2",
+      "hashPath": "microsoft.aspnetcore.openapi.7.0.0-rc.2.22476.2.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K63Y4hORbBcKLWH5wnKgzyn7TOfYzevIEwIedQHBIkmkEBA9SCqgvom+XTuE+fAFGvINGkhFItaZ2dvMGdT5iw==",
+      "path": "microsoft.bcl.asyncinterfaces/1.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ckb5EDBUNJdFWyajfXzUIMRkhf52fHZOQuuZg/oiu8y7zDCVwD0iHhew6MnThjHmevanpxL3f5ci2TtHQEN6bw==",
+      "path": "microsoft.extensions.apidescription.server/6.0.5",
+      "hashPath": "microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512"
+    },
+    "Microsoft.OpenApi/1.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
+      "path": "microsoft.openapi/1.2.3",
+      "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eUBr4TW0up6oKDA5Xwkul289uqSMgY0xGN4pnbOIBqCcN9VKGGaPvHX3vWaG/hvocfGDP+MGzMA0bBBKz2fkmQ==",
+      "path": "swashbuckle.aspnetcore/6.4.0",
+      "hashPath": "swashbuckle.aspnetcore.6.4.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Swagger/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nl4SBgGM+cmthUcpwO/w1lUjevdDHAqRvfUoe4Xp/Uvuzt9mzGUwyFCqa3ODBAcZYBiFoKvrYwz0rabslJvSmQ==",
+      "path": "swashbuckle.aspnetcore.swagger/6.4.0",
+      "hashPath": "swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lXhcUBVqKrPFAQF7e/ZeDfb5PMgE8n5t6L5B6/BQSpiwxgHzmBcx8Msu42zLYFTvR5PIqE9Q9lZvSQAcwCxJjw==",
+      "path": "swashbuckle.aspnetcore.swaggergen/6.4.0",
+      "hashPath": "swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1Hh3atb3pi8c+v7n4/3N80Jj8RvLOXgWxzix6w3OZhB7zBGRwsy7FWr4e3hwgPweSBpwfElqj4V4nkjYabH9nQ==",
+      "path": "swashbuckle.aspnetcore.swaggerui/6.4.0",
+      "hashPath": "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    },
+    "System.Collections.Immutable/1.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B43Zsz5EfMwyEbnObwRxW5u85fzJma3lrDeGcSAV1qkhSRTNY5uXAByTn9h9ddNdhM+4/YoLc/CI43umjwIl9Q==",
+      "path": "system.collections.immutable/1.7.1",
+      "hashPath": "system.collections.immutable.1.7.1.nupkg.sha512"
+    }
+  }
+}
